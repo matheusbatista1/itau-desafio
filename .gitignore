@@ -1,0 +1,26 @@
+# Node (React)
+frontend/node_modules/
+frontend/.env
+frontend/.turbo/
+frontend/.next/
+frontend/dist/
+
+# .NET
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/*.user
+backend/*.suo
+
+# Global
+*.log
+*.DS_Store
+Thumbs.db
+.env
+.env.* 
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.bak
+*.orig

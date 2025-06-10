@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LfQpuYCMEf6Y1riU1XKZW/kryw4va8MyN3KsZndQAfz3R0Vp3oDpgmZq1BnGLkjQMpMCp+5w0LST8GtlVrUAuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\InvestmentControl.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matt0\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

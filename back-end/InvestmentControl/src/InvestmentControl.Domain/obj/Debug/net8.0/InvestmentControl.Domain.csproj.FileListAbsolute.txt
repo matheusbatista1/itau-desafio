@@ -1,0 +1,11 @@
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\bin\Debug\net8.0\InvestmentControl.Domain.deps.json
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\bin\Debug\net8.0\InvestmentControl.Domain.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\bin\Debug\net8.0\InvestmentControl.Domain.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\InvestmentControl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\InvestmentControl.Domain.AssemblyInfoInputs.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\InvestmentControl.Domain.AssemblyInfo.cs
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\InvestmentControl.Domain.csproj.CoreCompileInputs.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\InvestmentControl.Domain.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\refint\InvestmentControl.Domain.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\InvestmentControl.Domain.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Domain\obj\Debug\net8.0\ref\InvestmentControl.Domain.dll

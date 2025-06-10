@@ -1,0 +1,819 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.api\\controllers\\usuario\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|solutionrelative:src\\investmentcontrol.api\\controllers\\usuario\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\usuario\\getposicaoglobalbyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\usuario\\getposicaoglobalbyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\usuario\\getusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\usuario\\getusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\usuario\\getusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\usuario\\getusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|solutionrelative:src\\investmentcontrol.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\repositories\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\repositories\\usuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\interfaces\\iusuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\interfaces\\iusuariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\repositories\\posicoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\repositories\\posicoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\repositories\\cotacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\repositories\\cotacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\repositories\\ativosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\repositories\\ativosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\usuario\\getcotacoesbyusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\usuario\\getcotacoesbyusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\usuario\\getcotacoesbyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\usuario\\getcotacoesbyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\interfaces\\icotacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\interfaces\\icotacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\configurations\\cotacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\configurations\\cotacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\interfaces\\iposicoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\interfaces\\iposicoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\entities\\cotacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\entities\\cotacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\entities\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\entities\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\configurations\\posicaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\configurations\\posicaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\configurations\\operacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\configurations\\operacaoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\configurations\\ativoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\configurations\\ativoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.api\\controllers\\operacao\\operacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|solutionrelative:src\\investmentcontrol.api\\controllers\\operacao\\operacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\usuario\\gettotalinvestidobyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\usuario\\gettotalinvestidobyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\usuario\\gettotalinvestidobyusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\usuario\\gettotalinvestidobyusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.infrastructure\\repositories\\operacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51ED40EE-CE60-4BAF-895B-D892C5A0C37D}|src\\InvestmentControl.Infrastructure\\InvestmentControl.Infrastructure.csproj|solutionrelative:src\\investmentcontrol.infrastructure\\repositories\\operacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\usuario\\getposicaoglobalbyusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\usuario\\getposicaoglobalbyusuarioidcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\cotacao\\getultimacotacaobyativocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\cotacao\\getultimacotacaobyativocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.api\\controllers\\cotacao\\cotacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|solutionrelative:src\\investmentcontrol.api\\controllers\\cotacao\\cotacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\operacao\\getfaturamentocorretoracommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\operacao\\getfaturamentocorretoracommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\operacao\\getfaturamentocorretoracommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\operacao\\getfaturamentocorretoracommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\operacao\\getprecomediocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\operacao\\getprecomediocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\operacao\\getprecomediocommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\operacao\\getprecomediocommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\posicao\\getposicaocommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\posicao\\getposicaocommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\posicao\\getposicaocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\posicao\\getposicaocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.api\\controllers\\posicao\\posicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|solutionrelative:src\\investmentcontrol.api\\controllers\\posicao\\posicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\posicao\\getclassificacaoposicaoandcorretagemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\posicao\\getclassificacaoposicaoandcorretagemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\posicao\\getclassificacaoposicaoandcorretagemcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\posicao\\getclassificacaoposicaoandcorretagemcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\results\\posicao\\child\\getclassificacaoposicaoandcorretagemchildcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\results\\posicao\\child\\getclassificacaoposicaoandcorretagemchildcommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.api\\controllers\\ativo\\ativoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2560AC4C-FD8C-447F-B420-B4D9DC2D9008}|src\\InvestmentControl.API\\InvestmentControl.API.csproj|solutionrelative:src\\investmentcontrol.api\\controllers\\ativo\\ativoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.application\\commands\\handlers\\usuario\\gettotalcorretagembyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1195687-3583-49B6-8A46-D893AA54EAD8}|src\\InvestmentControl.Application\\InvestmentControl.Application.csproj|solutionrelative:src\\investmentcontrol.application\\commands\\handlers\\usuario\\gettotalcorretagembyusuarioidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B81EBAE-B6A3-4875-A76D-0977A52B69A5}|InvestmentControl.Workers.CotacaoKafka\\InvestmentControl.Workers.CotacaoKafka.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\investmentcontrol.workers.cotacaokafka\\service\\cotacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B81EBAE-B6A3-4875-A76D-0977A52B69A5}|InvestmentControl.Workers.CotacaoKafka\\InvestmentControl.Workers.CotacaoKafka.csproj|solutionrelative:investmentcontrol.workers.cotacaokafka\\service\\cotacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B81EBAE-B6A3-4875-A76D-0977A52B69A5}|InvestmentControl.Workers.CotacaoKafka\\InvestmentControl.Workers.CotacaoKafka.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\investmentcontrol.workers.cotacaokafka\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B81EBAE-B6A3-4875-A76D-0977A52B69A5}|InvestmentControl.Workers.CotacaoKafka\\InvestmentControl.Workers.CotacaoKafka.csproj|solutionrelative:investmentcontrol.workers.cotacaokafka\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\interfaces\\ioperacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\interfaces\\ioperacoesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\dtos\\classificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\dtos\\classificacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|c:\\repositorios\\projetos pessoais\\investmentcontrol\\src\\investmentcontrol.domain\\services\\precomedioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56FCE934-C565-45A5-AB08-84FD15A7CEED}|src\\InvestmentControl.Domain\\InvestmentControl.Domain.csproj|solutionrelative:src\\investmentcontrol.domain\\services\\precomedioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 46,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\UsuariosRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Repositories\\UsuariosRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\UsuariosRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Repositories\\UsuariosRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:24:10.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsuariosRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\IUsuariosRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Interfaces\\IUsuariosRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\IUsuariosRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Interfaces\\IUsuariosRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:23:13.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetUsuarioIdCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetUsuarioIdCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetUsuarioIdCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetUsuarioIdCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetUsuarioIdCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:20:43.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetUsuarioIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetUsuarioIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetUsuarioIdCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetUsuarioIdCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetUsuarioIdCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:20:25.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICotacoesRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\ICotacoesRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Interfaces\\ICotacoesRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\ICotacoesRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Interfaces\\ICotacoesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T02:04:53.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetCotacoesByUsuarioIdCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetCotacoesByUsuarioIdCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetCotacoesByUsuarioIdCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetCotacoesByUsuarioIdCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetCotacoesByUsuarioIdCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:56:13.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetCotacoesByUsuarioIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetCotacoesByUsuarioIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetCotacoesByUsuarioIdCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetCotacoesByUsuarioIdCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetCotacoesByUsuarioIdCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:55:39.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetTotalInvestidoByUsuarioIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalInvestidoByUsuarioIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalInvestidoByUsuarioIdCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalInvestidoByUsuarioIdCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalInvestidoByUsuarioIdCommandHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:28:37.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetTotalInvestidoByUsuarioIdCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetTotalInvestidoByUsuarioIdCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetTotalInvestidoByUsuarioIdCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetTotalInvestidoByUsuarioIdCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetTotalInvestidoByUsuarioIdCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T01:26:16.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetPosicaoGlobalByUsuarioIdCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:59:25.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AtivosController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Ativo\\AtivosController.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.API\\Controllers\\Ativo\\AtivosController.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Ativo\\AtivosController.cs",
+              "RelativeToolTip": "src\\InvestmentControl.API\\Controllers\\Ativo\\AtivosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:34:48.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CotacoesController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Cotacao\\CotacoesController.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.API\\Controllers\\Cotacao\\CotacoesController.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Cotacao\\CotacoesController.cs",
+              "RelativeToolTip": "src\\InvestmentControl.API\\Controllers\\Cotacao\\CotacoesController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwBgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:34:30.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CotacaoService.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\InvestmentControl.Workers.CotacaoKafka\\Service\\CotacaoService.cs",
+              "RelativeDocumentMoniker": "InvestmentControl.Workers.CotacaoKafka\\Service\\CotacaoService.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\InvestmentControl.Workers.CotacaoKafka\\Service\\CotacaoService.cs",
+              "RelativeToolTip": "InvestmentControl.Workers.CotacaoKafka\\Service\\CotacaoService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T00:00:00.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\InvestmentControl.Workers.CotacaoKafka\\Worker.cs",
+              "RelativeDocumentMoniker": "InvestmentControl.Workers.CotacaoKafka\\Worker.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\InvestmentControl.Workers.CotacaoKafka\\Worker.cs",
+              "RelativeToolTip": "InvestmentControl.Workers.CotacaoKafka\\Worker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:59:57.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetPosicaoCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetPosicaoCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetPosicaoCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetPosicaoCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetPosicaoCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:41:16.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetPosicaoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetPosicaoCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetPosicaoCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetPosicaoCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetPosicaoCommandHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:40:13.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:32:24.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AtivosRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\AtivosRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Repositories\\AtivosRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\AtivosRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Repositories\\AtivosRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:27:44.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ClassificacaoDto.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\DTOs\\ClassificacaoDto.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\DTOs\\ClassificacaoDto.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\DTOs\\ClassificacaoDto.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\DTOs\\ClassificacaoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:23:51.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PosicoesRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\PosicoesRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Repositories\\PosicoesRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\PosicoesRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Repositories\\PosicoesRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:14:36.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPosicoesRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\IPosicoesRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Interfaces\\IPosicoesRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\IPosicoesRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Interfaces\\IPosicoesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:10:06.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Posicao.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Entities\\Posicao.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Entities\\Posicao.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Entities\\Posicao.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Entities\\Posicao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:10:14.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetClassificacaoPosicaoAndCorretagemChildCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\Child\\GetClassificacaoPosicaoAndCorretagemChildCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\Child\\GetClassificacaoPosicaoAndCorretagemChildCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\Child\\GetClassificacaoPosicaoAndCorretagemChildCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\Child\\GetClassificacaoPosicaoAndCorretagemChildCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:06:07.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetTotalCorretagemByUsuarioIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalCorretagemByUsuarioIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalCorretagemByUsuarioIdCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalCorretagemByUsuarioIdCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetTotalCorretagemByUsuarioIdCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwA4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:00:39.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetPosicaoGlobalByUsuarioIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Usuario\\GetPosicaoGlobalByUsuarioIdCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:00:36.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetClassificacaoPosicaoAndCorretagemCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:59:55.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GetClassificacaoPosicaoAndCorretagemCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Posicao\\GetClassificacaoPosicaoAndCorretagemCommandHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:58:15.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PosicoesController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Posicao\\PosicoesController.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.API\\Controllers\\Posicao\\PosicoesController.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Posicao\\PosicoesController.cs",
+              "RelativeToolTip": "src\\InvestmentControl.API\\Controllers\\Posicao\\PosicoesController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:53:03.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetPrecoMedioCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetPrecoMedioCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetPrecoMedioCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetPrecoMedioCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetPrecoMedioCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:24:19.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetFaturamentoCorretoraCommandResult.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetFaturamentoCorretoraCommandResult.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetFaturamentoCorretoraCommandResult.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetFaturamentoCorretoraCommandResult.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Results\\Operacao\\GetFaturamentoCorretoraCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:24:00.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetFaturamentoCorretoraCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetFaturamentoCorretoraCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetFaturamentoCorretoraCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetFaturamentoCorretoraCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetFaturamentoCorretoraCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:23:48.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsuarioConfiguration.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Configurations\\UsuarioConfiguration.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Configurations\\UsuarioConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:20:22.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PosicaoConfiguration.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\PosicaoConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Configurations\\PosicaoConfiguration.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\PosicaoConfiguration.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Configurations\\PosicaoConfiguration.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwDQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:20:17.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OperacaoConfiguration.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\OperacaoConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Configurations\\OperacaoConfiguration.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\OperacaoConfiguration.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Configurations\\OperacaoConfiguration.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwDwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:20:14.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CotacaoConfiguration.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\CotacaoConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Configurations\\CotacaoConfiguration.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\CotacaoConfiguration.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Configurations\\CotacaoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwCYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:20:08.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AtivoConfiguration.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\AtivoConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Configurations\\AtivoConfiguration.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Configurations\\AtivoConfiguration.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Configurations\\AtivoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:20:01.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OperacaoRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\OperacaoRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Repositories\\OperacaoRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\OperacaoRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Repositories\\OperacaoRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:10:15.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IOperacoesRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\IOperacoesRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Interfaces\\IOperacoesRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Interfaces\\IOperacoesRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Interfaces\\IOperacoesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:09:40.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetPrecoMedioCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetPrecoMedioCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetPrecoMedioCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetPrecoMedioCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Operacao\\GetPrecoMedioCommandHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:08:44.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OperacoesController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Operacao\\OperacoesController.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.API\\Controllers\\Operacao\\OperacoesController.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Operacao\\OperacoesController.cs",
+              "RelativeToolTip": "src\\InvestmentControl.API\\Controllers\\Operacao\\OperacoesController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:07:18.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CotacoesRepository.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\CotacoesRepository.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Infrastructure\\Repositories\\CotacoesRepository.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Infrastructure\\Repositories\\CotacoesRepository.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Infrastructure\\Repositories\\CotacoesRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvykAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:57:38.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cotacao.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Entities\\Cotacao.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Entities\\Cotacao.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Entities\\Cotacao.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Entities\\Cotacao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:57:00.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetUltimaCotacaoByAtivoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Cotacao\\GetUltimaCotacaoByAtivoCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\Commands\\Handlers\\Cotacao\\GetUltimaCotacaoByAtivoCommandHandler.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\Commands\\Handlers\\Cotacao\\GetUltimaCotacaoByAtivoCommandHandler.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\Commands\\Handlers\\Cotacao\\GetUltimaCotacaoByAtivoCommandHandler.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:54:46.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.API\\Program.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Program.cs",
+              "RelativeToolTip": "src\\InvestmentControl.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:20:40.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PrecoMedioService.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Services\\PrecoMedioService.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Domain\\Services\\PrecoMedioService.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Domain\\Services\\PrecoMedioService.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Domain\\Services\\PrecoMedioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:28:38.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\InvestmentControl.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T21:18:43.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Usuario\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "src\\InvestmentControl.API\\Controllers\\Usuario\\UsuariosController.cs",
+              "ToolTip": "C:\\Repositorios\\Projetos pessoais\\InvestmentControl\\src\\InvestmentControl.API\\Controllers\\Usuario\\UsuariosController.cs",
+              "RelativeToolTip": "src\\InvestmentControl.API\\Controllers\\Usuario\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:56:20.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

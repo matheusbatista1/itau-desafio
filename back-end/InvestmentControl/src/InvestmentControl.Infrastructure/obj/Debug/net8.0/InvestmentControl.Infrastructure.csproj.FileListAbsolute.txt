@@ -1,0 +1,15 @@
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\bin\Debug\net8.0\InvestmentControl.Infrastructure.deps.json
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\bin\Debug\net8.0\InvestmentControl.Infrastructure.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\bin\Debug\net8.0\InvestmentControl.Infrastructure.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\bin\Debug\net8.0\InvestmentControl.Domain.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\bin\Debug\net8.0\InvestmentControl.Domain.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.csproj.AssemblyReference.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.AssemblyInfoInputs.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.AssemblyInfo.cs
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\Investme.A9022676.Up2Date
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\refint\InvestmentControl.Infrastructure.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\InvestmentControl.Infrastructure.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Infrastructure\obj\Debug\net8.0\ref\InvestmentControl.Infrastructure.dll

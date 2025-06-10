@@ -1,0 +1,15 @@
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\bin\Debug\net8.0\InvestmentControl.Application.deps.json
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\bin\Debug\net8.0\InvestmentControl.Application.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\bin\Debug\net8.0\InvestmentControl.Application.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\bin\Debug\net8.0\InvestmentControl.Domain.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\bin\Debug\net8.0\InvestmentControl.Domain.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.csproj.AssemblyReference.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.AssemblyInfoInputs.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.AssemblyInfo.cs
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.csproj.CoreCompileInputs.cache
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\Investme.2A9FB017.Up2Date
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\refint\InvestmentControl.Application.dll
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\InvestmentControl.Application.pdb
+C:\Repositorios\Projetos pessoais\InvestmentControl\src\InvestmentControl.Application\obj\Debug\net8.0\ref\InvestmentControl.Application.dll

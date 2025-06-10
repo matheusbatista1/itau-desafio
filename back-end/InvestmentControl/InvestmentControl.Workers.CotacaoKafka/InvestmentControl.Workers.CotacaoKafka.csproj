@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-InvestmentControl.Workers.CotacaoKafka-4c5a6bce-56cb-4ba6-a5e7-757b4c962a42</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.10.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+    <PackageReference Include="Polly" Version="8.5.2" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\src\InvestmentControl.Domain\InvestmentControl.Domain.csproj" />
+		<ProjectReference Include="..\src\InvestmentControl.Infrastructure\InvestmentControl.Infrastructure.csproj" />
+		<ProjectReference Include="..\src\InvestmentControl.Application\InvestmentControl.Application.csproj" />
+	</ItemGroup>
+
+</Project>
