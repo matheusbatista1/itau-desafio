@@ -304,645 +304,196 @@ Isso garante que o tráfego seja sempre otimizado, evitando gargalos em servidor
 
 ## Endpoint RESTful (método, URL, parâmetros) + documentação em formato OpenAPI 3.0 (YAML)
 
-### 1. Permitir informar um ativo e receber a última cotação
+### Endpoints RESTful
 
-- **Método HTTP:** `GET`
-- **URL:** `/quotes/{assetSymbol}/latest`
-- **Propósito:** Obter a última cotação de um ativo específico.
-- **Parâmetros:**
-    - `assetSymbol` (parâmetro de caminho): O símbolo do ativo (ex: `PETR4`, `VALE3`).
-
-**Exemplo de requisição:**
-
-`GET /quotes/PETR4/latest`
-
-**Exemplo de resposta (JSON):**
-
-```json
-{
-  "assetSymbol": "PETR4",
-  "price": 35.75,
-  "timestamp": "2025-06-09T18:00:00Z"
-}
-```
+| #  | Método | URL                                         | Parâmetros/Body                                                                 | Descrição                                      |
+|----|--------|---------------------------------------------|---------------------------------------------------------------------------------|------------------------------------------------|
+| 1  | GET    | /api/cotacao/ativo/{ativoId}                | ativoId (int, obrigatório, path)                                                | Obter a cotação atual de um ativo               |
+| 2  | GET    | /api/operacao/preco-medio                   | -                                                                               | Consultar o preço médio geral das operações     |
+| 3  | GET    | /api/operacao/corretora/faturamento         | -                                                                               | Consultar faturamento da corretora              |
+| 4  | POST   | /api/operacao                              | Body: { usuarioId, ativoId, quantidade, precoUnitario, tipoOperacao, corretagem } | Registrar nova operação                         |
+| 5  | GET    | /api/posicao/classificacao                  | -                                                                               | Obter classificações de posições                |
+| 6  | GET    | /api/posicao/usuario/{usuarioId}            | usuarioId (int, obrigatório, path)                                              | Obter posições de um usuário                    |
+| 7  | GET    | /api/usuario/{usuarioId}/operacoes          | usuarioId (int, obrigatório, path)                                              | Obter operações de um usuário                   |
+| 8  | GET    | /api/usuario/{usuarioId}/global             | usuarioId (int, obrigatório, path)                                              | Obter visão global da carteira de um usuário    |
+| 9  | GET    | /api/usuario/{usuarioId}/corretagem         | usuarioId (int, obrigatório, path)                                              | Obter total de corretagens pagas por usuário    |
+| 10 | GET    | /api/usuario/{usuarioId}/cotacoes           | usuarioId (int, obrigatório, path)                                              | Obter cotações dos ativos de um usuário         |
+| 11 | GET    | /api/usuario/{email}                        | email (string, obrigatório, path)                                               | Buscar usuário por e-mail                       |
 
 ---
 
-### 2. Consultar o preço médio por ativo para um usuário
-
-- **Método HTTP:** `GET`
-- **URL:** `/users/{userId}/assets/{assetSymbol}/average-price`
-- **Propósito:** Obter o preço médio de compra de um ativo específico para um determinado usuário.
-- **Parâmetros:**
-    - `userId` (parâmetro de caminho): O ID único do usuário/cliente.
-    - `assetSymbol` (parâmetro de caminho): O símbolo do ativo.
-
-**Exemplo de requisição:**
-
-`GET /users/CLIENTE123/assets/PETR4/average-price`
-
-**Exemplo de resposta (JSON):**
-
-```json
-{
-  "userId": "CLIENTE123",
-  "assetSymbol": "PETR4",
-  "averagePrice": 32.10
-}
-```
-
----
-
-### 3. Consultar a posição de um cliente
-
-- **Método HTTP:** `GET`
-- **URL:** `/clients/{clientId}/positions`
-- **Propósito:** Obter a posição (todos os ativos e suas quantidades) de um cliente específico.
-- **Parâmetros:**
-    - `clientId` (parâmetro de caminho): O ID único do cliente.
-
-**Exemplo de requisição:**
-
-`GET /clients/CLIENTE123/positions`
-
-**Exemplo de resposta (JSON):**
-
-```json
-{
-  "clientId": "CLIENTE123",
-  "totalInvested": 150000.00,
-  "currentValue": 155000.00,
-  "assets": [
-    {
-      "assetSymbol": "PETR4",
-      "quantity": 1000,
-      "currentPrice": 35.75,
-      "totalValue": 35750.00
-    },
-    {
-      "assetSymbol": "VALE3",
-      "quantity": 500,
-      "currentPrice": 68.20,
-      "totalValue": 34100.00
-    }
-  ]
-}
-```
-
----
-
-### 4. Ver o valor financeiro ganho pela corretora com as corretagens
-
-- **Método HTTP:** `GET`
-- **URL:** `/brokerage/fees/total`
-- **Propósito:** Obter o valor total das corretagens recebidas pela corretora em um período.
-- **Parâmetros (Query Parameters):**
-    - `startDate` (opcional): Data de início para o filtro (formato `YYYY-MM-DD`).
-    - `endDate` (opcional): Data de fim para o filtro (formato `YYYY-MM-DD`).
-
-**Exemplo de requisição:**
-
-`GET /brokerage/fees/total?startDate=2025-01-01&endDate=2025-06-30`
-
-**Exemplo de resposta (JSON):**
-
-```json
-{
-  "totalBrokerageFees": 25000.50,
-  "currency": "BRL",
-  "periodStart": "2025-01-01",
-  "periodEnd": "2025-06-30"
-}
-```
-
----
-
-### 5. Receber os Top 10 clientes com maiores posições, e os Top 10 clientes que mais pagaram corretagem
-
-- **Método HTTP:** `GET`
-- **URL:** `/clients/rankings`
-- **Propósito:** Obter rankings dos clientes por posição e corretagem paga.
-
-**Exemplo de requisição:**
-
-`GET /clients/rankings`
-
-**Exemplo de resposta (JSON):**
-
-```json
-{
-  "top10ByPosition": [
-    {
-      "clientId": "CLIENTE001",
-      "name": "Cliente Alfa",
-      "totalPositionValue": 500000.00
-    },
-    {
-      "clientId": "CLIENTE002",
-      "name": "Cliente Beta",
-      "totalPositionValue": 450000.00
-    }
-    // ... até 10 clientes
-  ],
-  "top10ByBrokerageFees": [
-    {
-      "clientId": "CLIENTE005",
-      "name": "Cliente Gama",
-      "totalBrokeragePaid": 1500.00
-    },
-    {
-      "clientId": "CLIENTE001",
-      "name": "Cliente Alfa",
-      "totalBrokeragePaid": 1200.00
-    }
-    // ... até 10 clientes
-  ]
-}
-```
-
----
-
-### Documentação OpenAPI 3.0 (YAML)
+### Documentação OpenAPI 3.0 (YAML) - Exemplo
 
 ```yaml
-openapi: 3.0.0
+openapi: 3.0.1
 info:
-  title: API da Corretora de Investimentos
-  description: API para consulta de cotações, posições de clientes, e dados de corretagem.
-  version: 1.0.0
-servers:
-  - url: https://api.corretora.com.br/v1
-    description: Servidor de Produção
-  - url: http://localhost:8080/v1
-    description: Servidor de Desenvolvimento
-tags:
-  - name: Cotações
-    description: Operações relacionadas às cotações de ativos.
-  - name: Usuários e Clientes
-    description: Operações relacionadas a dados de usuários e clientes.
-  - name: Corretora
-    description: Operações relacionadas a dados financeiros da corretora.
+  title: InvestmentControl.API
+  version: "1.0"
 paths:
-  /quotes/{assetSymbol}/latest:
+  /api/cotacao/ativo/{ativoId}:
     get:
-      tags:
-        - Cotações
-      summary: Obter a última cotação de um ativo
-      operationId: getLatestQuote
-      description: Retorna a cotação mais recente para o símbolo do ativo especificado.
+      tags: [Cotacoes]
+      summary: Obter cotação atual de um ativo
       parameters:
-        - name: assetSymbol
+        - name: ativoId
           in: path
           required: true
-          description: O símbolo do ativo (ex: PETR4, VALE3).
           schema:
-            type: string
-            example: PETR4
+            type: integer
       responses:
         '200':
-          description: Última cotação do ativo retornada com sucesso.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/LatestQuote'
-              examples:
-                success:
-                  value:
-                    assetSymbol: "PETR4"
-                    price: 35.75
-                    timestamp: "2025-06-09T18:00:00Z"
-        '404':
-          description: Ativo não encontrado.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              examples:
-                notFound:
-                  value:
-                    code: "ASSET_NOT_FOUND"
-                    message: "O ativo com o símbolo especificado não foi encontrado."
-        '500':
-          description: Erro interno do servidor.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-  /users/{userId}/assets/{assetSymbol}/average-price:
+          description: Cotação retornada com sucesso
+
+  /api/operacao/preco-medio:
     get:
-      tags:
-        - Usuários e Clientes
-      summary: Consultar preço médio por ativo para um usuário
-      operationId: getUserAssetAveragePrice
-      description: Retorna o preço médio de compra de um ativo específico para um determinado usuário.
+      tags: [Operacoes]
+      summary: Consultar preço médio geral
+      responses:
+        '200':
+          description: Preço médio retornado com sucesso
+
+  /api/operacao/corretora/faturamento:
+    get:
+      tags: [Operacoes]
+      summary: Consultar faturamento total da corretora
+      responses:
+        '200':
+          description: Valor total de corretagens retornado
+
+  /api/operacao:
+    post:
+      tags: [Operacoes]
+      summary: Registrar nova operação
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostOperacaoCommand'
+      responses:
+        '200':
+          description: Operação registrada com sucesso
+
+  /api/posicao/classificacao:
+    get:
+      tags: [Posicoes]
+      summary: Obter classificações de posições
+      responses:
+        '200':
+          description: Lista de classificações retornada
+
+  /api/posicao/usuario/{usuarioId}:
+    get:
+      tags: [Posicoes]
+      summary: Obter posições do usuário
       parameters:
-        - name: userId
+        - name: usuarioId
           in: path
           required: true
-          description: O ID único do usuário/cliente.
           schema:
-            type: string
-            format: uuid # Assumindo UUID para IDs de usuário
-            example: "a1b2c3d4-e5f6-7890-1234-567890abcdef"
-        - name: assetSymbol
+            type: integer
+      responses:
+        '200':
+          description: Lista de posições retornada
+
+  /api/usuario/{usuarioId}/operacoes:
+    get:
+      tags: [Usuarios]
+      summary: Obter operações de um usuário
+      parameters:
+        - name: usuarioId
           in: path
           required: true
-          description: O símbolo do ativo.
           schema:
-            type: string
-            example: VALE3
+            type: integer
       responses:
         '200':
-          description: Preço médio do ativo para o usuário retornado com sucesso.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/UserAssetAveragePrice'
-              examples:
-                success:
-                  value:
-                    userId: "a1b2c3d4-e5f6-7890-1234-567890abcdef"
-                    assetSymbol: "PETR4"
-                    averagePrice: 32.10
-        '404':
-          description: Usuário ou ativo não encontrado para o usuário.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              examples:
-                userOrAssetNotFound:
-                  value:
-                    code: "USER_OR_ASSET_NOT_FOUND"
-                    message: "Usuário ou ativo não encontrado para o ID e símbolo especificados."
-        '500':
-          description: Erro interno do servidor.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-  /clients/{clientId}/positions:
+          description: Operações retornadas
+
+  /api/usuario/{usuarioId}/global:
     get:
-      tags:
-        - Usuários e Clientes
-      summary: Consultar a posição de um cliente
-      operationId: getClientPositions
-      description: Retorna a posição completa (todos os ativos e suas quantidades) de um cliente específico.
+      tags: [Usuarios]
+      summary: Obter visão global da carteira
       parameters:
-        - name: clientId
+        - name: usuarioId
           in: path
           required: true
-          description: O ID único do cliente.
           schema:
-            type: string
-            format: uuid
-            example: "c1d2e3f4-g5h6-7890-5678-90abcdef1234"
+            type: integer
       responses:
         '200':
-          description: Posição do cliente retornada com sucesso.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ClientPosition'
-              examples:
-                success:
-                  value:
-                    clientId: "c1d2e3f4-g5h6-7890-5678-90abcdef1234"
-                    totalInvested: 150000.00
-                    currentValue: 155000.00
-                    assets:
-                      - assetSymbol: "PETR4"
-                        quantity: 1000
-                        currentPrice: 35.75
-                        totalValue: 35750.00
-                      - assetSymbol: "VALE3"
-                        quantity: 500
-                        currentPrice: 68.20
-                        totalValue: 34100.00
-        '404':
-          description: Cliente não encontrado.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              examples:
-                clientNotFound:
-                  value:
-                    code: "CLIENT_NOT_FOUND"
-                    message: "O cliente com o ID especificado não foi encontrado."
-        '500':
-          description: Erro interno do servidor.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-  /brokerage/fees/total:
+          description: Visão global retornada
+
+  /api/usuario/{usuarioId}/corretagem:
     get:
-      tags:
-        - Corretora
-      summary: Ver o valor financeiro ganho pela corretora com as corretagens
-      operationId: getTotalBrokerageFees
-      description: Retorna o valor total das corretagens recebidas pela corretora, opcionalmente filtrado por um período.
+      tags: [Usuarios]
+      summary: Total de corretagens pagas
       parameters:
-        - name: startDate
-          in: query
-          required: false
-          description: Data de início para o filtro (formato YYYY-MM-DD).
+        - name: usuarioId
+          in: path
+          required: true
           schema:
-            type: string
-            format: date
-            example: "2025-01-01"
-        - name: endDate
-          in: query
-          required: false
-          description: Data de fim para o filtro (formato YYYY-MM-DD).
-          schema:
-            type: string
-            format: date
-            example: "2025-06-30"
+            type: integer
       responses:
         '200':
-          description: Valor total das corretagens retornado com sucesso.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/TotalBrokerageFees'
-              examples:
-                success:
-                  value:
-                    totalBrokerageFees: 25000.50
-                    currency: "BRL"
-                    periodStart: "2025-01-01"
-                    periodEnd: "2025-06-30"
-        '400':
-          description: Parâmetros de data inválidos.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-              examples:
-                invalidDates:
-                  value:
-                    code: "INVALID_DATE_RANGE"
-                    message: "As datas de início e fim fornecidas são inválidas ou o período é incorreto."
-        '500':
-          description: Erro interno do servidor.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
-  /clients/rankings:
+          description: Valor total de corretagens retornado
+
+  /api/usuario/{usuarioId}/cotacoes:
     get:
-      tags:
-        - Usuários e Clientes
-      summary: Obter rankings de clientes (top posições e top corretagens)
-      operationId: getClientRankings
-      description: Retorna os Top 10 clientes com maiores posições e os Top 10 clientes que mais pagaram corretagem.
+      tags: [Usuarios]
+      summary: Cotações dos ativos do usuário
+      parameters:
+        - name: usuarioId
+          in: path
+          required: true
+          schema:
+            type: integer
       responses:
         '200':
-          description: Rankings de clientes retornados com sucesso.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ClientRankings'
-              examples:
-                success:
-                  value:
-                    top10ByPosition:
-                      - clientId: "CLIENTE001"
-                        name: "Cliente Alfa"
-                        totalPositionValue: 500000.00
-                      - clientId: "CLIENTE002"
-                        name: "Cliente Beta"
-                        totalPositionValue: 450000.00
-                    top10ByBrokerageFees:
-                      - clientId: "CLIENTE005"
-                        name: "Cliente Gama"
-                        totalBrokeragePaid: 1500.00
-                      - clientId: "CLIENTE001"
-                        name: "Cliente Alfa"
-                        totalBrokeragePaid: 1200.00
-        '500':
-          description: Erro interno do servidor.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
+          description: Lista de cotações retornada
+
+  /api/usuario/{email}:
+    get:
+      tags: [Usuarios]
+      summary: Buscar usuário por e-mail
+      parameters:
+        - name: email
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Usuário retornado com sucesso
 
 components:
   schemas:
-    LatestQuote:
+    PostOperacaoCommand:
       type: object
       properties:
-        assetSymbol:
-          type: string
-          description: O símbolo do ativo.
-          example: "PETR4"
-        price:
-          type: number
-          format: float
-          description: A última cotação do ativo.
-          example: 35.75
-        timestamp:
-          type: string
-          format: date-time
-          description: Data e hora da cotação.
-          example: "2025-06-09T18:00:00Z"
-      required:
-        - assetSymbol
-        - price
-        - timestamp
-
-    UserAssetAveragePrice:
-      type: object
-      properties:
-        userId:
-          type: string
-          format: uuid
-          description: O ID único do usuário.
-          example: "a1b2c3d4-e5f6-7890-1234-567890abcdef"
-        assetSymbol:
-          type: string
-          description: O símbolo do ativo.
-          example: "PETR4"
-        averagePrice:
-          type: number
-          format: float
-          description: O preço médio de compra do ativo para o usuário.
-          example: 32.10
-      required:
-        - userId
-        - assetSymbol
-        - averagePrice
-
-    ClientPosition:
-      type: object
-      properties:
-        clientId:
-          type: string
-          format: uuid
-          description: O ID único do cliente.
-          example: "c1d2e3f4-g5h6-7890-5678-90abcdef1234"
-        totalInvested:
-          type: number
-          format: float
-          description: Valor total investido pelo cliente em todos os ativos.
-          example: 150000.00
-        currentValue:
-          type: number
-          format: float
-          description: Valor atual total da posição do cliente.
-          example: 155000.00
-        assets:
-          type: array
-          description: Lista de ativos na posição do cliente.
-          items:
-            $ref: '#/components/schemas/AssetPosition'
-      required:
-        - clientId
-        - totalInvested
-        - currentValue
-        - assets
-
-    AssetPosition:
-      type: object
-      properties:
-        assetSymbol:
-          type: string
-          description: O símbolo do ativo.
-          example: "PETR4"
-        quantity:
+        usuarioId:
           type: integer
-          description: A quantidade do ativo possuída.
-          example: 1000
-        currentPrice:
+        ativoId:
+          type: integer
+        quantidade:
+          type: integer
+        precoUnitario:
           type: number
-          format: float
-          description: A última cotação do ativo.
-          example: 35.75
-        totalValue:
+          format: double
+        tipoOperacao:
+          type: integer
+          enum: [1, 2]
+        corretagem:
           type: number
-          format: float
-          description: O valor total atual desta posição.
-          example: 35750.00
+          format: double
       required:
-        - assetSymbol
-        - quantity
-        - currentPrice
-        - totalValue
+        - usuarioId
+        - ativoId
+        - quantidade
+        - precoUnitario
+        - tipoOperacao
+        - corretagem
 
-    TotalBrokerageFees:
-      type: object
-      properties:
-        totalBrokerageFees:
-          type: number
-          format: float
-          description: O valor total das corretagens ganhas pela corretora.
-          example: 25000.50
-        currency:
-          type: string
-          description: A moeda das corretagens.
-          example: "BRL"
-        periodStart:
-          type: string
-          format: date
-          description: Data de início do período consultado.
-          example: "2025-01-01"
-        periodEnd:
-          type: string
-          format: date
-          description: Data de fim do período consultado.
-          example: "2025-06-30"
-      required:
-        - totalBrokerageFees
-        - currency
-
-    ClientRankings:
-      type: object
-      properties:
-        top10ByPosition:
-          type: array
-          description: Lista dos Top 10 clientes com maiores posições.
-          items:
-            $ref: '#/components/schemas/RankedClientPosition'
-        top10ByBrokerageFees:
-          type: array
-          description: Lista dos Top 10 clientes que mais pagaram corretagem.
-          items:
-            $ref: '#/components/schemas/RankedClientBrokerage'
-      required:
-        - top10ByPosition
-        - top10ByBrokerageFees
-
-    RankedClientPosition:
-      type: object
-      properties:
-        clientId:
-          type: string
-          format: uuid
-          description: O ID único do cliente.
-          example: "CLIENTE001"
-        name:
-          type: string
-          description: O nome do cliente.
-          example: "Cliente Alfa"
-        totalPositionValue:
-          type: number
-          format: float
-          description: O valor total da posição do cliente.
-          example: 500000.00
-      required:
-        - clientId
-        - name
-        - totalPositionValue
-
-    RankedClientBrokerage:
-      type: object
-      properties:
-        clientId:
-          type: string
-          format: uuid
-          description: O ID único do cliente.
-          example: "CLIENTE005"
-        name:
-          type: string
-          description: O nome do cliente.
-          example: "Cliente Gama"
-        totalBrokeragePaid:
-          type: number
-          format: float
-          description: O valor total de corretagens pagas pelo cliente.
-          example: 1500.00
-      required:
-        - clientId
-        - name
-        - totalBrokeragePaid
-
-    ErrorResponse:
-      type: object
-      properties:
-        code:
-          type: string
-          description: Um código de erro específico para a situação.
-          example: "INVALID_DATE_RANGE"
-        message:
-          type: string
-          description: Uma mensagem descritiva do erro.
-          example: "As datas de início e fim fornecidas são inválidas ou o período é incorreto."
-      required:
-        - code
-        - message
 ```
-
----
-
-## Observações sobre a Documentação OpenAPI 3.0
-
-- **`tags`**: Ajuda a organizar os endpoints em grupos lógicos na documentação gerada (ex: Swagger UI).
-- **`format`**: Usado para dar mais granularidade ao tipo de dado (ex: `uuid` para IDs, `date-time` para timestamps, `float` para números decimais).
-- **`examples`**: Essencial para mostrar como as requisições e respostas devem ser, facilitando o entendimento para os desenvolvedores que consumirão a API.
-- **`$ref`**: Permite reutilizar definições de esquemas (`schemas`) para evitar repetição e manter a consistência.
-- **Códigos de Status HTTP**: Foram incluídos códigos de status comuns (200, 400, 404, 500) com descrições e esquemas de erro genéricos (`ErrorResponse`).
-- **Segurança**: Para uma API real, seria necessário adicionar seções de segurança (por exemplo, autenticação com OAuth2 ou API Keys) à documentação OpenAPI, usando o campo `securitySchemes` e aplicando-os aos `paths`. Isso não foi incluído para manter o foco nos requisitos solicitados.
 
 ---
