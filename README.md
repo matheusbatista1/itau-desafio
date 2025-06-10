@@ -95,6 +95,20 @@ UNIQUE (usuario_id, ativo_id)
 );
 ```
 
+```sql
+CREATE INDEX idx_operacoes_usuario_ativo_data
+ON operacoes (usuario_id, ativo_id, data_hora);
+```
+
+```sql
+CREATE INDEX idx_cotacoes_ativo_data
+ON cotacoes (ativo_id, data_hora DESC);
+```
+
+```sql
+CREATE UNIQUE INDEX idx_posicoes_usuario_ativo
+ON posicoes (usuario_id, ativo_id);
+```
 ---
 
 ## Justificativa dos tipos de dados usados:
